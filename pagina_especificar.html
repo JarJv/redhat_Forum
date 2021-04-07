@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Especificações do Sistema</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="Css/css_padrao.css">
+</head>
+<body>
+		<div class="navegation">
+			<div class="dropdown">
+  				<button class="dropbtn">Integrantes</button>
+  					<div class="dropdown-content">
+   						 <a href="index.html">Volte para a página principal</a>
+ 				 </div>
+			</div>
+				<a href="pagina_fontes.html"><button>Créditos</button></a>
+				<a href=""><button>Apresentação</button></a>
+			</div>
+
+		<div class="header">
+
+				<h1>Especificações do sistema</h1>
+		</div>
+			
+			<div class="container">
+
+				<div class="section"> 
+					<p>Este texto foi originalmente produzido pelos integrantes do grupo para fins de estudo e usado para a produção de trabalho escolar, portanto a profundidade é mínima em texto, confira a <a href="https://access.redhat.com/documentation/pt-br/red_hat_enterprise_linux/7/html/installation_guide/sect-storage-devices-x86">fonte de pesquisa</a> para um estudo mais aprofundado.</p>
+				</div>
+
+			<div class="container_text">
+					<p class="p">O programa de instalação do Red Hat Enterprise Linux detecta e instala automaticamente o hardware de seu sistema, portanto, não é preciso ter que fornecer nenhuma informação específica do sistema. Mas para certos cenários de instalação do Red Hat Enterprise Linux, é recomendável que você registre as especificações do sistema para referência futura. Estes cenários incluem:
+						Instalação da RHEL com um layout de divisória personalizado
+						Record: Os números dos modelos, tamanhos, tipos e interfaces dos discos rígidos anexados ao sistema. Por exemplo, Seagate ST3320613AS 320 GB em SATA0, Western Digital WD7500AAAKS 750 GB em SATA1.</p>
+
+						<img width="700px"; height= "500px"; src="img/sistema.jfif">
+
+					<p class="p">Instalação do RHEL como um sistema operacional adicional em um sistema existente
+					Record: Partições utilizadas no sistema. Estas informações podem incluir tipos de sistemas de arquivos, nomes de nós de dispositivos, etiquetas de sistemas de arquivos e tamanhos, e permitem identificar partições específicas durante o processo de particionamento. Se um dos sistemas operacionais for um sistema operacional Unix, o Red Hat Enterprise Linux pode relatar os nomes dos dispositivos de forma diferente. Informações adicionais podem ser encontradas executando o equivalente do comando mount e o comando blkid, e no arquivo /etc/fstab.</p>
+
+						<img width="1000px"; height= "500px"; src="img/sistema_redhat.png">
+
+					<p class="p">Se forem instalados sistemas operacionais múltiplos, o programa de instalação do Red Hat Enterprise Linux tenta detectá-los automaticamente e configurar o carregador de inicialização para inicializá-los. Você pode configurar manualmente sistemas operacionais adicionais se eles não forem detectados automaticamente. Veja Configuring boot loader em Seção 4.4, “Configuração de opções de software” para mais informações.
+					Instalação da RHEL a partir de uma imagem em um disco rígido local
+					Record: O disco rígido e o diretório que mantém a imagem.
+					Instalação da RHEL a partir de um local de rede. 
+					Se a rede tiver que ser configurada manualmente, ou seja, o DHCP não é utilizado.</p>
+
+					<ul>
+						
+						<li>Endereço IP</li>
+						<li>Máscara de rede</li>
+						<li>Endereço IP do gateway</li>
+						<li>Endereços IP do servidor, se necessário</li>
+
+					</ul>
+
+					<p class="p">Entre em contato com o administrador de sua rede se precisar de assistência com os requisitos de rede.
+						Instalando o RHEL em um alvo iSCSI
+						Record: A localização da meta iSCSI. Dependendo de sua rede, você pode precisar de um nome de usuário e senha CHAP, e um nome de usuário e senha CHAP invertidos.</p>
+
+			</div>
+
+			</div>
+
+		<div class="footer">
+			<div class="section_footer">
+				<h2><a href="index.html">Página inicial</h2></p>
+			</div>
+
+			<div class="section_footer">
+				<h2><a href="https://access.redhat.com/documentation/pt-br/red_hat_enterprise_linux/7/html/installation_guide/sect-storage-devices-x86">Fonte de pesquisa</h2></p>
+			</div>
+
+		</div>	
+</body>
+</html>

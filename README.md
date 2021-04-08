@@ -1,2 +1,2 @@
-# https://jarjv.github.io/redhat_Forum/.
+# https://jarjv.github.io/redhat_Forum/
 redhat Forum
